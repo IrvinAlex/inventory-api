@@ -50,12 +50,6 @@
    USE inventario;
    ```
 
-2. Crear Usuario de Base de Datos (Opcional pero recomendado):
-   ```sql
-   CREATE USER 'inventario_user'@'localhost' IDENTIFIED BY 'tu_contraseña';
-   GRANT ALL PRIVILEGES ON inventario.* TO 'inventario_user'@'localhost';
-   FLUSH PRIVILEGES;
-   ```
 
 ### 3. Configuración de la Aplicación
 1. Configurar la Conexión a la Base de Datos:
